@@ -1,0 +1,14 @@
+<h2>Edit Oil</h2>
+
+<form action "/oils/<%= @oil.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+
+  <label for"oil[name]">Name:</label>
+  <input name="artist[name]" value="<%= @oil.name %">
+
+  <label for="oil[photo_url]">Photo URL:</label>
+  <input name="oil[photo_url]" value="<%=@oil.photo_url %>"
+
+  <input type="submit" value="Create">
+
+</form>
