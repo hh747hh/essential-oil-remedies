@@ -1,1 +1,11 @@
-<h1>Cure common symptoms with essentila oils<h1>
+<h1>Essential Oils<a href="/olis/new">Add New<h1>
+
+<ul>
+  <% oils.each do |oil| %>
+    <li>
+      <a href="/oils/<%=  oil.id %>">
+      <%= oil.name %>
+      </a>
+    </li>
+  <% end %>
+</ul>
