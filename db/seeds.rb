@@ -10,12 +10,11 @@ Oil.destroy_all
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 peppermint = Oil.create({
   name: "Peppermint",
-  photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjg-OvfpdLLAhUou4MKHS7RCbYQjRwIBw&url=http%3A%2F%2Fswfl.naturalawakeningsmag.com%2FSWFL%2FSeptember-2013%2FThe-dTERRA-Challenge%2F&psig=AFQjCNE_yft22uGUfSS9gn9nAFt-6Poh4w&ust=1458667424705357",
+  photo_url: "http://swfl.naturalawakeningsmag.com/images/cache/cache_1/cache_a/cache_9/pepp-0d7e99a1.jpeg?ver=1457047839&aspectratio=0.80332409972299",
   benefits: "Cool and Invigorate"
 })
 
 lemon = Oil.create({
   name: "Lemon",
-  photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj9jvmgptLLAhXkloMKHSNpCx4QjRwIBw&url=https%3A%2F%2Foilsforwhatails.wordpress.com%2Fauthor%2Fthaichai%2F&psig=AFQjCNGjq589hgq6d-Ee6-6hlgz7yabNeQ&ust=1458667562470494",
-  benefits: "Clean and Freshen"
+  photo_url: "https://oilsforwhatails.files.wordpress.com/2015/02/doterra-lemon.png?w=648"
 })

@@ -1,14 +1,23 @@
 <h2>Edit Oil</h2>
 
-<form action "/oils/<%= @oil.id %>" method="post">
-  <input type="hidden" name="_method" value="put">
+<%= form_for @oil  do |f| %>
+ <p>
+   <%= f.label :name %><br>
+   <%= f.text_field :name %>
+ </p>
 
-  <label for"oil[name]">Name:</label>
-  <input name="artist[name]" value="<%= @oil.name %">
+ <p>
+   <%= f.label :photo_url %><br>
+   <%= f.text_field  :photo_url %>
+ </p>
 
-  <label for="oil[photo_url]">Photo URL:</label>
-  <input name="oil[photo_url]" value="<%=@oil.photo_url %>"
+ <p>
+   <%= f.label :benefits %><br>
+   <%= f.text_area :benefits %>
+ </p>
 
-  <input type="submit" value="Create">
+ <p>
+   <%= f.submit %>
+ </p>
 
-</form>
+<% end %>

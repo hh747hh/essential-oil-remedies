@@ -8,12 +8,18 @@ class OilsController < ApplicationController
 
   def create
     @oil  = Oil.create!(oil_params)
-    redirect_to "/oils/#{@oil.id}"
+    redirect_to @oil
+
+    # "/oils/#{@oil.id}"
 
   end
 
   def show
     @oil =Oil.find(params[:id])
+  end
+
+  def new
+    @oil = Oil.new
   end
 
 
