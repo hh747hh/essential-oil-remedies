@@ -1,7 +1,7 @@
-<h1>Essential Oils<a href="/olis/new">Add New<h1>
+<h1>Essential Oils<%= link_to "Add Oil", new_oil_path %><h1>
 
 <ul>
-  <% oils.each do |oil| %>
+  <% @oils.each do |oil| %>
     <li>
       <a href="/oils/<%=  oil.id %>">
       <%= oil.name %>

@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+root to: "oils#index"
+resources :oils
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
