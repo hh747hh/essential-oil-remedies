@@ -1,3 +1,3 @@
-class Oli < ActiveRecord::Base
+class Oil < ActiveRecord::Base
 
 end
