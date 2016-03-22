@@ -4,6 +4,12 @@ class CreateOils < ActiveRecord::Migration
       t.string :name
       t.string :photo_url
       t.string :benefits
+      t.string :descriptions
+      t.string :uses
+      t.string :directions
+      t.string :cautions
+
+
 
 
     end

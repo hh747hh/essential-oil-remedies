@@ -4,24 +4,44 @@
 
   <!-- <strong>Image:</strong> -->
   <%= image_tag @oil.photo_url %>
-
-<br>
-<br>
-<br>
-<br>
+<ul>
+<li>
   <strong>Benefits:</strong>
   <%= @oil.benefits %>
+</li>
+<li>
+  <strong>Decriptions:</strong>
+  <%= @oil.descriptions %>
+</li>
+<li>
+  <strong>Uses:</strong>
+  <%= @oil.uses %>
+</li>
+<li>
+  <strong>Direction:</strong>
+  <%= @oil.directions %>
+</li>
+<li>
+  <strong>Cautions:</strong>
+  <%= @oil.cautions %>
+</li>
+</ul>
+
+
+
 </p>
+
+
 
 <h3>Comments</h3>
 <% @oil.comments.each do |comment| %>
   <p>
-    <strong>Commenter:</strong>
+    <strong>Name:</strong>
     <%= comment.commenter %>
   </p>
 
   <p>
-    <strong>Comment:</strong>
+    <strong>Said:</strong>
     <%= comment.body %>
   </p>
 <% end %>
@@ -30,11 +50,11 @@
 <h3>Add a comment:</h3>
 <%= form_for([@oil, @oil.comments.build]) do |f| %>
   <p>
-    <%= f.label :commenter %><br>
+    <%= f.label :name %><br>
     <%= f.text_field :commenter %>
   </p>
   <p>
-    <%= f.label :body %><br>
+    <%= f.label :said %><br>
     <%= f.text_area :body %>
   </p>
   <p>

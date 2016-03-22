@@ -7,7 +7,15 @@ class OilsController < ApplicationController
 
   def edit
     @oil = Oil.find(params[:id])
+
   end
+
+  def update
+    @oil = Oil.find(params[:id])
+    @oil.update(oil_params)
+    redirect_to @oil
+  end
+
 
   def create
     @oil  = Oil.new(oil_params)
@@ -35,7 +43,7 @@ class OilsController < ApplicationController
 
   private
   def oil_params
-    params.require(:oil).permit(:name, :photo_url, :benefits)
+    params.require(:oil).permit(:name, :photo_url, :benefits, :descriptions, :uses, :directions, :cautions)
   end
 
 

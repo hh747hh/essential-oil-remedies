@@ -1,0 +1,30 @@
+<h1><%= @remedy.name %></h1>
+
+<p>
+
+  <!-- <strong>Image:</strong> -->
+  <%= image_tag @remedy.photo_url %>
+
+<br>
+<br>
+<br>
+<br>
+  <strong>Benefits:</strong>
+  <%= @remedy.benefits %>
+
+
+  <strong>Directions:</strong>
+  <%= @remedy.directions %>
+
+
+
+
+</p>
+
+
+
+<%= link_to 'Delete', remedy_path(@remedy),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Edit', edit_remedy_path(@remedy) %>
+<%= link_to 'Back', remedies_path %>
