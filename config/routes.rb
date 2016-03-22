@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
 root to: "oils#index"
-resources :oils
+resources :oils do
+  resources :comments
+end
 
 
 
