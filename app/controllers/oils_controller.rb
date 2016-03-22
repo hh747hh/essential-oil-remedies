@@ -5,13 +5,17 @@ class OilsController < ApplicationController
 
   end
 
+  def edit
+    @oil = Oil.find(params[:id])
+  end
 
   def create
-    @oil  = Oil.create!(oil_params)
-    redirect_to @oil
-
-    # "/oils/#{@oil.id}"
-
+    @oil  = Oil.new(oil_params)
+    if @oil.save
+      redirect_to @oil
+    else
+      render 'new'
+    end
   end
 
   def show
@@ -22,6 +26,12 @@ class OilsController < ApplicationController
     @oil = Oil.new
   end
 
+  def destroy
+    @oil = Oil.find(params[:id])
+    @oil.destroy
+
+    redirect_to oils_path
+  end
 
   private
   def oil_params

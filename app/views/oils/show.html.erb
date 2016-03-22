@@ -1,5 +1,4 @@
-<h2><%= @oil.name %> <%= link_to "(edit)",
-edit_oil_path(@oil) %></h2>
+<h2><%= @oil.name %></h2>
 
 <p>
   <strong>Name:</strong>
@@ -20,5 +19,8 @@ edit_oil_path(@oil) %></h2>
 </p>
 
 
-
-<!-- <% image_tag @oil.photo_url, class: "oil-photo" %> -->
+<<%= link_to 'Delete', oil_path(@oil),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Edit', edit_oil_path(@oil) %>
+<%= link_to 'Back', oils_path %>

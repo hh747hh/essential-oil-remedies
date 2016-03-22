@@ -1,0 +1,11 @@
+<h1>Essential Oils<%= link_to "Add Oil", new_oil_path %><h1>
+
+<ul>
+  <% oils.each do |oil| %>
+    <li>
+      <a href="/oils/<%=  oil.id %>">
+      <%= oil.name %>
+      </a>
+    </li>
+  <% end %>
+</ul>
