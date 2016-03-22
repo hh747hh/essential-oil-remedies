@@ -1,25 +1,5 @@
-<h2>Edit Oil</h2>
+<h2>Edit Page</h2>
 
-<%= form_for @oil  do |f| %>
- <p>
-   <%= f.label :name %><br>
-   <%= f.text_field :name %>
- </p>
-
- <p>
-   <%= f.label :photo_url %><br>
-   <%= f.text_field  :photo_url %>
- </p>
-
- <p>
-   <%= f.label :benefits %><br>
-   <%= f.text_area :benefits %>
- </p>
-
- <p>
-   <%= f.submit %>
- </p>
-
-<% end %>
+<%= render 'form' %>
 
 <%= link_to 'Back', oils_path %>
