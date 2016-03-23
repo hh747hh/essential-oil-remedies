@@ -1,0 +1,2 @@
+module RemedyCommentsHelper
+end

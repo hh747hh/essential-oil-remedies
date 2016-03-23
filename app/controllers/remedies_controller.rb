@@ -19,8 +19,15 @@ class RemediesController < ApplicationController
   end
 
   def show
-    @remedy =Remedy.find(params[:id])
+    @remedy = Remedy.find(params[:id])
   end
+
+  def update
+    @remedy = Remedy.find(params[:id])
+    @remedy.update(remedy_params)
+    redirect_to @remedy
+  end
+
 
   def new
     @remedy = Remedy.new

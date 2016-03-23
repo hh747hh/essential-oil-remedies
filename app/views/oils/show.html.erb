@@ -4,28 +4,28 @@
 
   <!-- <strong>Image:</strong> -->
   <%= image_tag @oil.photo_url %>
-<ul>
-<li>
-  <strong>Benefits:</strong>
-  <%= @oil.benefits %>
-</li>
-<li>
-  <strong>Decriptions:</strong>
-  <%= @oil.descriptions %>
-</li>
-<li>
-  <strong>Uses:</strong>
-  <%= @oil.uses %>
-</li>
-<li>
-  <strong>Direction:</strong>
-  <%= @oil.directions %>
-</li>
-<li>
-  <strong>Cautions:</strong>
-  <%= @oil.cautions %>
-</li>
-</ul>
+  <ul>
+    <li>
+      <strong>Benefits:</strong>
+      <%= @oil.benefits %>
+    </li>
+    <li>
+      <strong>Decriptions:</strong>
+      <%= @oil.descriptions %>
+    </li>
+    <li>
+      <strong>Uses:</strong>
+      <%= @oil.uses %>
+    </li>
+    <li>
+      <strong>Direction:</strong>
+      <%= @oil.directions %>
+    </li>
+    <li>
+      <strong>Cautions:</strong>
+      <%= @oil.cautions %>
+    </li>
+  </ul>
 
 
 
@@ -35,31 +35,35 @@
 
 <h3>Comments</h3>
 <% @oil.comments.each do |comment| %>
-  <p>
-    <strong>Name:</strong>
-    <%= comment.commenter %>
-  </p>
+<p>
+  <strong>Name:</strong>
+  <%= comment.commenter %>
+</p>
 
-  <p>
-    <strong>Said:</strong>
-    <%= comment.body %>
-  </p>
+<p>
+  <strong>Said:</strong>
+  <%= comment.body %>
+</p>
+
+<%= link_to "Edit", edit_oil_comment_path(@oil, comment) %> |
+<%= link_to "Delete", oil_comment_path(@oil, comment), method: :delete %>
+
 <% end %>
 
 
 <h3>Add a comment:</h3>
 <%= form_for([@oil, @oil.comments.build]) do |f| %>
-  <p>
-    <%= f.label :name %><br>
-    <%= f.text_field :commenter %>
-  </p>
-  <p>
-    <%= f.label :said %><br>
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.submit %>
-  </p>
+<p>
+  <%= f.label :name %><br>
+  <%= f.text_field :commenter %>
+</p>
+<p>
+  <%= f.label :said %><br>
+  <%= f.text_area :body %>
+</p>
+<p>
+  <%= f.submit %>
+</p>
 <% end %>
 
 

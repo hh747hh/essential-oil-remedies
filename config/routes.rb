@@ -7,7 +7,10 @@ resources :oils do
   resources :comments
 end
 
-resources :remedies
+resources :remedies do
+  resources :remedy_comments
+  
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
