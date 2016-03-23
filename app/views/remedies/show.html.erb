@@ -30,6 +30,11 @@
     <strong>Said:</strong>
     <%= comment.comment %>
   </p>
+
+
+<%= link_to "Edit", edit_remedy_remedy_comment_path(@remedy, comment) %> |
+<%= link_to "Delete", remedy_remedy_comment_path(@remedy, comment), method: :delete %>
+
 <% end %>
 
 
