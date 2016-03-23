@@ -10,12 +10,7 @@ class CommentsController < ApplicationController
     @comment = Comment.new
   end
 
-  def create
-    @oil = Oil.find(params[:oil_id])
-    @comment = @oil.comments.create(comment_params)
-    redirect_to oil_path(@oil)
-  end
-
+  
   def edit
     @oil = Oil.find(params[:oil_id])
     @comment = Comment.find(params[:id])

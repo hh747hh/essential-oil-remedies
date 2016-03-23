@@ -1,0 +1,14 @@
+<h3>Edit a comment:</h3>
+<%= form_for([@oil, @comment]) do |f| %>
+<p>
+  <%= f.label :name %><br>
+  <%= f.text_field :commenter %>
+</p>
+<p>
+  <%= f.label :said %><br>
+  <%= f.text_area :body %>
+</p>
+<p>
+  <%= f.submit %>
+</p>
+<% end %>

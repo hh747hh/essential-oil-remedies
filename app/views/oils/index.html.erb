@@ -2,12 +2,12 @@
 
 <table>
   <% @oils.each do |oil| %>
-    <tr>
-      <a href="/oils/<%=  oil.id %>">
-      <%= oil.name %>
+<ul>
+  <%= link_to image_tag(oil.photo_url), oil_path(oil) %>
+  <%= link_to oil.name, oil_path(oil) %>
 
-    </a><br>
-    </tr>
+</ul>
+
 
 
   <% end %>

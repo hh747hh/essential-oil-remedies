@@ -67,7 +67,7 @@ others refer to aromatic or topical use. "
 
 shoulder = Remedy.create({
   name: "Remedy for Shoulder Pain",
-  photo_url: "https://oilsforwhatails.files.wordpress.com/2015/02/doterra-lemon.png?w=648",
+video_url: "https://www.youtube.com/embed/OEnKOk4ad0U",
   benefits: " Yay",
   directions: "Put oils on your shoulders and rub it"
 })

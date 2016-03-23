@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20160323000221) do
 
   create_table "remedies", force: :cascade do |t|
     t.string   "name"
-    t.string   "photo_url"
+    t.string   "video_url"
     t.string   "benefits"
     t.string   "directions"
     t.datetime "created_at", null: false

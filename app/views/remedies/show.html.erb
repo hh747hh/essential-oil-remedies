@@ -2,8 +2,6 @@
 
 <p>
 
-  <!-- <strong>Image:</strong> -->
-  <%= image_tag @remedy.photo_url %>
 
 <br>
 <br>
@@ -37,6 +35,8 @@
 
 <% end %>
 
+
+<iframe width="560" height="315" src="<%=@remedy.video_url%>" frameborder="0" allowfullscreen></iframe>
 
 <h3>Add a comment:</h3>
 <%= form_for([@remedy, @remedy.remedy_comments.build]) do |f| %>
