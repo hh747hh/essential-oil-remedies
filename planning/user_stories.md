@@ -1,11 +1,19 @@
-As a user, I want to have access to look what each oils are.
+As a user, I want to know about what each oil does.
 
-As a user, I want know what remedies oils to use for common symptoms such as back pain relief.
+As a user, I want to edit each oil in the oil list.
 
-As a user, I want to add, edit and delete new oil to list of oils.
+As a user, I want to create new oil to the oil list.
 
-As a user, I want to add, edit and delete new remedy to list of remedies.
+As a user, I want to delete each oil in the oil list.
 
-As a user, I want to comment on the oils.
+As a user, I want to comment on each oil list.
 
-As a user, I want to comment on the remedies.
+As a user, I want to know about what remedy does.
+
+As a user, I want to edit each remedy in the remedy list.
+
+As a user, I want to create new remedy to the remedy list.
+
+As a user, I want to delete each remedy in the remedy list.
+
+As a user, I want to comment on each remedy.
