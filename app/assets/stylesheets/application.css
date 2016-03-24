@@ -13,11 +13,11 @@
  *= require_tree .
  *= require_self
  */
-
+/*
 *{
   margin: 0;
   padding: 0;
-}
+}*/
 
 body {
 text-align: center;
@@ -28,8 +28,6 @@ background-color: #E3EEE9
 
 label{
 font-size: 20px;
-
-
 
 }
 
@@ -79,4 +77,21 @@ nav.button {
   width: 100px;
   height: 30px;
   background-color: darkgreen;
+}
+
+p {
+font-size: 30px;
+}
+
+.oil {
+  float: left;
+  margin: 2em;
+}
+.oillist {
+
+  overflow: auto;
+}
+
+.oil-discription {
+  font-size: 20px;
 }

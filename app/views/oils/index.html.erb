@@ -1,16 +1,10 @@
 <h1>Essential Oils<h1>
-
-<table>
+<div class = "oillist">
   <% @oils.each do |oil| %>
-<ul>
-  <%= link_to image_tag(oil.photo_url), oil_path(oil) %>
-  <%= link_to oil.name, oil_path(oil) %>
-
-</ul>
-
-
-
+      <div class="oil">
+        <%= link_to image_tag(oil.photo_url), oil_path(oil) %>
+      </div>
+      <!-- <%= link_to oil.name, oil_path(oil) %> -->
   <% end %>
-</table>
-
-<h2><%= link_to "Add Oil", new_oil_path %>
+</div>
+  <h2><%= link_to "Add Oil", new_oil_path %></h2>

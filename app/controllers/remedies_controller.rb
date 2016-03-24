@@ -42,7 +42,7 @@ class RemediesController < ApplicationController
 
   private
   def remedy_params
-    params.require(:remedy).permit(:name, :photo_url, :benefits, :directions)
+    params.require(:remedy).permit(:name, :video_url, :benefits, :directions)
   end
 
 

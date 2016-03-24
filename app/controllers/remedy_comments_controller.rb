@@ -20,7 +20,7 @@ class RemedyCommentsController < ApplicationController
 
   def edit
     @remedy = Remedy.find(params[:remedy_id])
-    @remedy_comment = RemedyComment.find(params[:id])
+    @remedy_comment = @remedy.remedy_comments.find(params[:id])
   end
 
   def update
