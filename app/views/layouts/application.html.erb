@@ -8,9 +8,11 @@
 </head>
 <body>
 <div class = "menubar">
-  <span class = "mainclick"><%= link_to 'Home', welcome_index_path %></span>
-  <span class = "mainclick"><%= link_to 'Essential Oils', oils_path %></span>
-  <span class = "mainclick"><%= link_to 'Remedies', remedies_path %></span>
+  <div class="links">
+  <div class = "mainclick homebutton"><%= link_to 'Home', welcome_index_path %></div>
+  <div class = "mainclick oilbar"><%= link_to 'Essential Oils', oils_path %></div>
+  <div class = "mainclick"><%= link_to 'Remedies', remedies_path %></div>
+</div>
 </div>
 
 

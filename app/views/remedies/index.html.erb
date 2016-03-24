@@ -2,12 +2,12 @@
 
 <table>
   <% @remedies.each do |remedy| %>
-    <ul class = "remedylist">
+    <div class = "remedylist">
+      <div class = "center_remedy">
+        <div class="remedy"><%= link_to remedy.name, remedy_path(remedy) %></div>
+      </div>
 
-      <div class="remedy"><%= link_to remedy.name, remedy_path(remedy) %></div>
-
-
-    </ul>
+    </div>
 
 
   <% end %>

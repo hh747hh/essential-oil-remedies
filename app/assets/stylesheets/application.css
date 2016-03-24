@@ -13,11 +13,12 @@
  *= require_tree .
  *= require_self
  */
-/*
+
 *{
   margin: 0;
   padding: 0;
-}*/
+  /*outline: red 1px solid;*/
+}*
 
 body {
 text-align: center;
@@ -49,7 +50,7 @@ white-space: pre-wrap;
 }
 
 .navbar {
-  background-color: lightgreen;
+
   width: 100%;
   height: 100px;
 }
@@ -88,7 +89,7 @@ nav.button {
 
 .oil {
   float: left;
-  margin: 2em;
+  
 }
 .oillist {
 
@@ -108,25 +109,68 @@ nav.button {
 }
 
 .menubar{
- background-color: lightgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 0 16px;
+
+ font-family: 'Open Sans', sans-serif;
+ font-size: 40px;
+ font-weight: 300;
+ line-height: 40px;
+ margin: auto 0;
+ height: 100px;
+ width: 100%;
 }
 
+.center_remedy {
+  margin: 0 auto;
+  width: 500px;
+}
 .remedy{
+  color: white;
   border-radius: 5px;
   font-size: 30px;
   background-color: lightgreen;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
+  width: 500px;
+  margin-bottom: 10px;
 }
-.mainclick{
-  background: green;
+
+.remedy:hover{
+
+background-color: green;
+}
+
+.mainclick {
+  background-color: green;
   color: white;
   border-radius: 5px;
+  width: 150px;
+  float: right;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 30px;
 }
 
-mainclick:hover{
+.mainclick a {
+  color: white;
+}
 
-  background: #yellow; color: #darkgreen; text-decoration: none;
+.oilbar{
+  width: 350px;
+}
+
+.links {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 800px;
+  height: 50px;
+  padding-right: 35px;
+}
+
+
+
+.mainclick:hover{
+
+background-color: black;
 
 
 }
