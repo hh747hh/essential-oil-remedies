@@ -431,71 +431,50 @@ applying product."})
 
 
 
-shoulder = Remedy.create({
-  name: "Remedy for Shoulder Pain",
-video_url: "https://www.youtube.com/embed/OEnKOk4ad0U",
-  benefits: " Yay",
-  directions: "Put oils on your shoulders and rub it"
+peppermintbenefit = Remedy.create({
+  name: "Peppermint Oil Benefits and Uses",
+video_url: "https://www.youtube.com/embed/3qv1Jg35r2w"
+
 })
 
+hormones = Remedy.create({
+  name: "How to Naturally Balance Your Hormones with Essential Oils",
+video_url: "https://www.youtube.com/embed/hVBocs7PUPI"
 
+})
 
+oilsforsleep = Remedy.create({
+  name: "Essential Oils for Sleep",
+video_url: "https://www.youtube.com/embed/6RfQkn1tJUk"
 
-#
-# lavendar = Oil.create({
-#   name:"Lavendar"          ,
-#   photo_url:""     .
-#   benefits:""
-#   })
-#    = Oil.create({
-#     name:"Melaleuca"          ,
-#     photo_url:""     .
-#     benefits:""
-#     })
-#     oregano = Oil.create({
-#       name:"Oregano"          ,
-#       photo_url:""     .
-#       benefits:""
-#       })
-#       doTERRA_Breathe = Oil.create({
-#         name:"doTERRA
-# Breathe"          ,
-#         photo_url:""     .
-#         benefits:""
-#         })
-#         digestZen = Oil.create({
-#           name:"DigestZen"          ,
-#           photo_url:""     .
-#           benefits:""
-#           })
-#           doTERRA_On_Guard = Oil.create({
-#             name:"doTERRA On Guard"          ,
-#             photo_url:""     .
-#             benefits:""
-#             })
-#             deep_Blue = Oil.create({
-#               name:"Deep Blue"          ,
-#               photo_url:""     .
-#               benefits:""
-#               })
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-# )
+})
+
+weigtloss = Remedy.create({
+  name: "Essential Oils for Weight Loss",
+video_url: "https://www.youtube.com/embed/PjVWdmwcvKM"
+
+})
+
+adhd = Remedy.create({
+  name: "How to Cure ADHD Naturally",
+video_url: "https://www.youtube.com/embed/y1XWIBbc17M"
+
+})
+
+sorethroat = Remedy.create({
+  name: "How to Cure a Sore Throat Instantly",
+video_url: "https://www.youtube.com/embed/PyOVrev_tEk"
+
+})
+
+sorethroat = Remedy.create({
+  name: "How to Cure a Sore Throat Instantly",
+video_url: "https://www.youtube.com/embed/PyOVrev_tEk"
+
+})
+
+oreganobenefits = Remedy.create({
+  name: "Benefits and Uses of Oil of Oregano",
+video_url: "https://www.youtube.com/embed/SRM5dThyaAk"
+
+})

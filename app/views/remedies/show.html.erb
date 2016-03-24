@@ -1,4 +1,6 @@
 <h1><%= @remedy.name %></h1>
+
+<!-- <%= link_to 'Back', remedies_path %> -->
 <ul>
 <iframe width="560" height="315" src="<%=@remedy.video_url%>" frameborder="0" allowfullscreen></iframe>
 </ul>
@@ -40,4 +42,3 @@
 method: :delete,
 data: { confirm: 'Are you sure?' } %>
 <%= link_to 'Edit', edit_remedy_path(@remedy) %>
-<%= link_to 'Back', remedies_path %>

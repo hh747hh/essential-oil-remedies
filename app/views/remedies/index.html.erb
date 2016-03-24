@@ -2,12 +2,12 @@
 
 <table>
   <% @remedies.each do |remedy| %>
-    <tr>
-      <a href="/remedies/<%=  remedy.id %>">
-      <%= remedy.name %>
+    <ul class = "remedylist">
 
-    </a><br>
-    </tr>
+      <h2><%= link_to remedy.name, remedy_path(remedy) %></h2>
+
+
+    </ul>
 
 
   <% end %>
