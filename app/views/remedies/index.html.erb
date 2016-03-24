@@ -4,7 +4,7 @@
   <% @remedies.each do |remedy| %>
     <ul class = "remedylist">
 
-      <h2><%= link_to remedy.name, remedy_path(remedy) %></h2>
+      <div class="remedy"><%= link_to remedy.name, remedy_path(remedy) %></div>
 
 
     </ul>

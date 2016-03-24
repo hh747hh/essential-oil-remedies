@@ -57,7 +57,7 @@ white-space: pre-wrap;
 h1 { color: #darkgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
 
 
-h2 { background-color: White;, #darkgreen; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 14px; }
+h2 {  font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 14px;, width : 100%;}
 
 
 p { color: #222; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; margin: 0 0 14px; }
@@ -108,7 +108,25 @@ nav.button {
 }
 
 .menubar{
-  background-color: lightgreen;, #darkgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 0 16px;
+ background-color: lightgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 0 16px;
+}
+
+.remedy{
+  border-radius: 5px;
+  font-size: 30px;
+  background-color: lightgreen;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.mainclick{
+  background: green;
+  color: white;,
+  border-radius: 5px;
+}
+
+mainclick:hover{
+
+  background: #yellow; color: #darkgreen; text-decoration: none;
 
 
 }
