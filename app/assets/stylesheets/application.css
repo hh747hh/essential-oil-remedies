@@ -36,6 +36,22 @@ input[type="text"]{
 width: 500px;
 height: 30px;
 }
+/*
+Remember you can specify the same CSS for multiple elements using commas. For example, I'd write this like:
+
+textarea,
+input[type="text"]{
+  width:500px;
+}
+textarea{
+  height:300px;
+}
+input[type="text"]{
+  height:30px;
+}
+
+This way if I want to change the width I only need to do it in one place.
+*/
 
 ul{
 list-style-type: none;
@@ -55,20 +71,23 @@ white-space: pre-wrap;
   height: 100px;
 }
 
+/* If you want everything on your site to use the same font, put `font-family` on `body`. It will "trickle down" to all the other elements. */
+
 h1 { color: #darkgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
 
 
 h2 {  font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 14px; width: 100%;}
 
-
+/* Stay consistent. You put all your properties on separate lines before. Why are you doing it on one line now? */
 p { color: #222; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; margin: 0 0 14px; }
 
 
 a { color: #222; backgraound: pink;text-decoration: none; }
+/* `background` is misspelled. */
 
 
 a:hover { background: #yellow; color: #darkgreen; text-decoration: none; }
-
+/* You only use `#` when you're specifying a hex color, e.g. `#ffff00` -- not when you're writing the English name. */
 
 nav {
   font-size: 25px;

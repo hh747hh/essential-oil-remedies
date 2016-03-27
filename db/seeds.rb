@@ -23,7 +23,7 @@ peppermint = Oil.create({
   benefits: "Soothes occasional skin irritations
 • Taken internally, Lavender reduces anxious
 feeling and promotes peaceful sleep*
-• Helps ease feelings of tension.*",
+• Helps ease feelings of tension.*", # It would be really nice if these big descriptions were in a separate file
   descriptions: "Lavender has been used and cherished for centuries for
 its unmistakable aroma and myriad benefits. In ancient
 times, the Egyptians and Romans used Lavender for
@@ -464,7 +464,7 @@ video_url: "https://www.youtube.com/embed/y1XWIBbc17M"
 sorethroat = Remedy.create({
   name: "How to Cure a Sore Throat Instantly",
 video_url: "https://www.youtube.com/embed/PyOVrev_tEk"
-
+# Keep your indentation consistent
 })
 
 sorethroat = Remedy.create({
