@@ -135,7 +135,6 @@ nav.button {
 }
 
 .remedy:hover{
-
 background-color: green;
 }
 
@@ -171,6 +170,66 @@ background-color: green;
 .mainclick:hover{
 
 background-color: lightgreen;
+}
 
+
+#container{
+	width:100%;
+	margin:40px auto;
+	overflow:hidden;
+}
+
+#slider{
+  width:80%;
+  height:500px;
+  /*position:relative;*/
+  /*overflow:hidden;*/
+  /*float:left;*/
+  padding:3px;
+  border:#666 solid 2px;
+  border-radius:5px;
+
+}
+
+#slider img{
+  width:80%;
+  height:500px;
+
+
+
+}
+
+.slide{
+	position:absolute;
+}
+
+.slide-copy{
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:20px;
+
+	background: rgba(0,0,0,0);
+}
+
+#prev, #next{
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+	position:relative;
+	z-index:100;
+}
+
+#prev{
+	margin-right:-45px;
+}
+
+#next{
+	margin-left:-45px;
+}
+
+.video-box{
+  margin: 20px auto;
+  padding: 10px auto;
 
 }
