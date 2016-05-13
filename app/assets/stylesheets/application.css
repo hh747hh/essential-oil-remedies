@@ -60,6 +60,8 @@ h1 { color: #darkgreen; font-family: 'Open Sans', sans-serif; font-size: 40px; f
 
 h2 {  font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 14px; width: 100%;}
 
+h3{  font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 32px; margin: 0 0 14px; width: 100%;}
+
 
 p { color: #222; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; margin: 0 0 14px; }
 
@@ -89,16 +91,26 @@ nav.button {
 
 .oil {
   float: left;
+  border: solid 1px;
+  border-radius: 10px;
+  margin : 10px;
+  padding : 10px;
+  opacity: .5;
+}
 
+.oil:hover {
+  opacity: 1;
+  background-color: green;
+  cursor: pointer;
 }
 .oillist {
 
   overflow: auto;
 }
 
-.oil-discription {
+/*.oil-discription {
   font-size: 20px;
-}
+}*/
 
 .remedylist > a {
   font-size: 30px;
