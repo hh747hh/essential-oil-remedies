@@ -10,17 +10,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class = "menubar">
-  <div class="links">
-  <div class = "mainclick homebutton"><%= link_to 'Home', welcome_index_path %></div>
-  <div class = "mainclick oilbar"><%= link_to 'Essential Oils', oils_path %></div>
-  <div class = "mainclick"><%= link_to 'Remedies', remedies_path %></div>
-</div>
-</div>
+  <div class = "menubar">
+    <div class="links">
+      <div class = "mainclick homebutton"><%= link_to 'Home', welcome_index_path %></div>
+      <div class = "mainclick oilbar"><%= link_to 'Essential Oils', oils_path %></div>
+      <div class = "mainclick"><%= link_to 'Remedies', remedies_path %></div>
+    </div>
+  </div>
 
 
 
-<%= yield %>
+  <%= yield %>
 
+  <footer>
+    <p>Woo Yun, 2016 @ All rights reserved.</p>
+  </footer>
 </body>
 </html>
