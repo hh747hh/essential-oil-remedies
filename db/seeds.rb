@@ -19,7 +19,7 @@ Oil.destroy_all
 
 peppermint = Oil.create({
   name: "Peppermint",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/peppermint342x524.jpg",
+  photo_url: "oils/Peppermint.jpg",
   benefits: "Soothes occasional skin irritations
 • Taken internally, Lavender reduces anxious
 feeling and promotes peaceful sleep*
@@ -65,7 +65,7 @@ others refer to aromatic or topical use. "
 
 lavender = Oil.create({
   name: "Lavender",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/lavender342x524.jpg",
+  photo_url: "oils/Lavender.jpg",
   benefits:"• Soothes occasional skin irritations
 • Taken internally, Lavender reduces anxious
 feeling and promotes peaceful sleep*
@@ -109,7 +109,7 @@ others refer to aromatic or topical use. "
 
 frankincense = Oil.create({
   name: "Frankincense",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/frankincense342x524.jpg",
+  photo_url: "oils/Frankincense.jpg",
   benefits:"• Supports healthy cellular function*
 • Promotes feelings of relaxation
 • Reduces the appearance of skin
@@ -149,7 +149,7 @@ refer to aromatic or topical use."
 
 lemon = Oil.create({
   name: "Lemon",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/lemon342x524.jpg",
+  photo_url: "oils/Lemon.jpg",
   benefits: "• Cleanses and purifies the air and surfaces
 • Naturally cleanses the body and aids in
 digestion*
@@ -196,7 +196,7 @@ refer to aromatic or topical use."
 
 melaleuca = Oil.create({
   name: "Melaleuca",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/melaleuca342x524.jpg",
+  photo_url: "oils/Melaleuca.jpg",
   benefits: "• Renowned for its cleansing and
 rejuvenating effect on the skin
 • Promotes healthy immune function*
@@ -242,7 +242,7 @@ refer to aromatic or topical use."
 
 oregano = Oil.create({
   name: "Oregano",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/singleOils/oregano342x524.jpg",
+  photo_url: "oils/Oregano.jpg",
   benefits: "• Used as a powerful cleansing and purifying agent
 • Supports a healthy immune system*
 • Supports healthy digestion and respiratory
@@ -286,7 +286,7 @@ aromatic or topical use."
 
 breathe = Oil.create({
   name: "Breathe",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/proprietaryBlends/breathe342x524.jpg",
+  photo_url: "oils/Breathe.jpg",
   benefits: " Maintains feelings of clear airways and
 easy breathing
 • Promotes a restful night’s sleep
@@ -320,7 +320,7 @@ up to 12 hours after applying product."
 
 deepblue = Oil.create({
   name: "DeepBlue",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/proprietaryBlends/deep_blue342x524.jpg",
+  photo_url: "oils/DeepBlue.jpg",
   benefits:"• Soothing and cooling oil blend
 • Comforting part of a massage" ,
   descriptions: "dōTERRA® Deep Blue is perfect for a soothing massage
@@ -348,7 +348,7 @@ ears, and sensitive area"
 
 digestzen = Oil.create({
   name: "DigestZen",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/proprietaryBlends/digestzen342x524.jpg",
+  photo_url: "oils/DigestZen.jpg",
   benefits:" Soothing and cooling oil blend
 • Comforting part of a massage" ,
   descriptions: "dōTERRA® Deep Blue is perfect for a soothing massage
@@ -376,7 +376,7 @@ ears, and sensitive areas. "
 
 onguard = Oil.create({
   name: "On Guard",
-  photo_url: "https://www.doterra.com/img/products/essentialOils/proprietaryBlends/on_guard342x524.jpg",
+  photo_url: "oils/OnGuard.jpg",
   benefits: " Supports healthy immune and respiratory
 function*
 • Protects against environmental threats*
